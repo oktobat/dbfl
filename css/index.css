@@ -29,52 +29,52 @@
 
 }
 
-.article1 { margin-top:120px; margin-bottom:120px;
+article:nth-child(1) { margin-top:120px; margin-bottom:120px;
     position:relative }
-.article1 .artBg {
+article:nth-child(1) .artBg {
     background:url(../images/main_img_2.jpg) no-repeat;
     background-size: auto;
     width:100%;
 }
 
-.article1 .artTit { float: left; padding:0 0 20px 300px;}
-.article1 .artTit span {
+article:nth-child(1) .artTit { float: left; padding:0 0 20px 300px;}
+article:nth-child(1) .artTit span {
     font-size:150px;
     color:#0d50aa;
     font-weight:bold;
 }
-.article1 .artTit h2 {
+article:nth-child(1) .artTit h2 {
     font-size:40px;
     color:#333;
     margin:-6px 0 0px;
 }
-.article1 .artSub {
+article:nth-child(1) .artSub {
     margin-left:360px;
 }
-.article1 .artSub p {
+article:nth-child(1) .artSub p {
     display:inline-block;
     font-size: 17px;
     color:#777;
     padding:10px 20px;
     
 }
-.article1 .artSub ul li {
+article:nth-child(1) .artSub ul li {
     width:30%;
     display:inline-block;
     margin:30px 30px;
     font-size:17px;
     color:#777;
 }
-.article1 .artSub h3 {
+article:nth-child(1) .artSub h3 {
     font-size:18px;
     color:#333;
     padding:10px 0;
     font-weight:bold;
 }
 
-.article2 .listInner { float:left; width:49% }
-.article2 .listInner:nth-child(2) { float:right; }
-.article2 .listInner img { width:100%; 
+article:nth-child(2) .listInner { float:left; width:49% }
+article:nth-child(2) .listInner:nth-child(2) { float:right; }
+article:nth-child(2) .listInner img { width:100%; 
 }
 
 .listInner > div { position:relative;
@@ -101,7 +101,7 @@
     text-align:center;
 }
 .listInner > div:hover .overlay { opacity:1; }
-.article2 button {
+article:nth-child(2) button {
     width:116px; height:54px;
     border-radius:30px;
     background:#fff;
@@ -114,32 +114,32 @@
     left:50%;
 }
 
-.article3 .nameOuter {
+article:nth-child(3) .nameOuter {
     background:#0d50aa;
     position: relative;
 }
-.article3 .namebg { padding:200px 0;
+article:nth-child(3) .namebg { padding:200px 0;
     background: url(../images/main_img_7.jpg) no-repeat;
     background-position:right 0;
     background-size:500px 544px;
 }
-.article3 .nameTit { color:#fff;
+article:nth-child(3) .nameTit { color:#fff;
     letter-spacing:1px;
  }
-.article3 .nameTit h4 {
+article:nth-child(3) .nameTit h4 {
     font-size:20px;
     font-weight:bold;
 }
-.article3 .nameTit h5 {
+article:nth-child(3) .nameTit h5 {
     font-size:16px;
     opacity:0.6;
     margin-bottom:32px
 }
-.article3 .nameTit p {
+article:nth-child(3) .nameTit p {
     font-size:24px;
 }
 
-.article4 .contbg {
+article:nth-child(4) .contbg {
     background-image:url(../images/main_img_10.jpg);
     width:100%; 
     background-size:cover;
