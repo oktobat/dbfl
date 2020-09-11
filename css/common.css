@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/*헤더, 푸터구역 스타일 등 공통구역 스타일*/
+
+.row { max-width:1700px;
+    margin:0 auto;
+}
+.row2 { max-width:1140px;
+    margin:0 auto;
+}
+
+#header { position: fixed; width:100%;
+    top:0; left:0;
+}
+#header .topmenu { padding:30px 0; 
+    position: relative;
+}
+.topmenu h1 { padding:0 15px; 
+}
+.topmenu .topNav {
+    position: absolute;
+    top:50%; left:200px;
+    transform:translateY(-50%);
+}
+
+.topNav .depth1 > li { display:inline-block;
+     position: relative;
+}
+.topNav .depth1 > li > a {
+    font-size:17px;
+    color:#fff;
+    font-weight:bold;
+    padding:10px 10px;
+
+}
+.topNav .depth1 > li > i { opacity:0.5;
+    font-size:8px;
+    color:#fff;
+    padding-right:10px;
+}
+.topNav .depth1 > li:hover > a {
+    border-bottom:1px solid #fff;
+}
+.topNav .depth2 {
+    background:rgba(0,0,0,0.8);
+    color:#fff;
+    border-radius:10px;
+    font-size:16px;
+    text-indent:1em;
+    line-height:2;
+    width:180%;
+    padding:25px 0;
+    margin-top:30px;
+    position: absolute;
+    top:100%; left:0;
+    opacity:0;
+    transition:all 0.3s;
+}
+
+.topNav .depth1 > li:hover .depth2 {
+    opacity:1;
+}
+.topNav .depth2 > li { transition:all 0.5s}
+.topNav .depth2 > li:hover a { opacity:0.6 }
+.topmenu .login {
+    font-size:17px;
+    color:#fff;
+    font-weight:bold;
+    padding:0 20px;
+    position: absolute; top:29px; right:70px;
+}
+.topmenu .login ul li { display: inline-block;
+    padding:0 15px
+}
+.topmenu .topbar {
+    position: absolute;
+    top:30px; right:0;
+    font-size:16px;
+    color:#fff;
+}
+
+
+#footer .footerMenu { padding:120px 0;}
+.footerMenu .footerlogo { float:left; width:16.666%;
+     display:block;
+     padding:0 15px;
+}
+.footerMenu .widgetItem { float:left; width:16.666%;
+    display:block;
+    padding:0 15px;
+}
+.footerMenu .widgetCont { float:left; width:20% }
+.footerMenu .instagram { float:right; width:40% }
+.footerMenu .widgetCont h4 { 
+    font-size:18px; color:#333;
+    font-weight:bold;
+    padding-bottom:25px;
+}
+.footerMenu .widgetItem h4 {
+    font-size:18px; color:#333;
+    font-weight:bold;
+    padding-bottom:13px;
+}
+.footerMenu .widgetbody {
+    font-size:16px; color:#777;
+    line-height:2;
+}
+.footerMenu .contbody address {
+    font-size:16px; color:#777;
+    line-height:1.6;
+    letter-spacing:-0.8px;
+}
+.footerMenu .widgetbody ul > li:hover a { opacity:0.2; }
+
+.instagram h4 { 
+    font-size:18px; color:#333;
+    font-weight:bold;
+    padding-bottom:25px;
+}
+.bodyInner > div { position: relative; float:left;
+    width:25%; 
+}
+.bodyInner > div img { width:100%; padding:2px 2px}
+.bodyInner .overlay { 
+    position:absolute;
+    top:0; right:0; left:0; bottom:0;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    transition:all 0.5s;
+}
+.bodyInner .copy {
+    position: absolute;
+    top:50%; left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:13px;
+}
+.bodyInner > div:hover .overlay {
+    opacity:1;
+}
+
+

@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+
+/*공통구역을 제외한 메인페이지 스타일*/
+
+#main_section .slideOuter {
+    background-image: url(../images/main_visual_1.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    height:/*635px*/900px;
+}
+.slideOuter .slidelogo {
+    text-align:center;
+    color:#fff;
+    position: absolute; top:50%; left:50%;
+    transform:translate(-50%,-50%)
+}
+.slideOuter .slidelogo h4 {
+    font-size:28px;
+    margin:-2px 0 50px;
+    font-weight:bold;
+
+}
+.slideOuter .slidelogo h2 {
+    font-size:90px;
+    margin:-6px 0 70px;
+    font-weight:bold;
+
+}
+
+.article1 { margin-top:120px; margin-bottom:120px;
+    position:relative }
+.article1 .artBg {
+    background:url(../images/main_img_2.jpg) no-repeat;
+    background-size: auto;
+    width:100%;
+}
+
+.article1 .artTit { float: left; padding:0 0 20px 300px;}
+.article1 .artTit span {
+    font-size:150px;
+    color:#0d50aa;
+    font-weight:bold;
+}
+.article1 .artTit h2 {
+    font-size:40px;
+    color:#333;
+    margin:-6px 0 0px;
+}
+.article1 .artSub {
+    margin-left:360px;
+}
+.article1 .artSub p {
+    display:inline-block;
+    font-size: 17px;
+    color:#777;
+    padding:10px 20px;
+    
+}
+.article1 .artSub ul li {
+    width:30%;
+    display:inline-block;
+    margin:30px 30px;
+    font-size:17px;
+    color:#777;
+}
+.article1 .artSub h3 {
+    font-size:18px;
+    color:#333;
+    padding:10px 0;
+    font-weight:bold;
+}
+
+.article2 .listInner { float:left; width:49% }
+.article2 .listInner:nth-child(2) { float:right; }
+.article2 .listInner img { width:100%; 
+}
+
+.listInner > div { position:relative;
+    margin-bottom:20px;
+}
+.listInner .overlay {
+    position: absolute;
+    top:0; right:0; left:0; bottom:0;
+    background:rgba(0,0,0,0.5);
+    opacity:0;
+    transition:all 0.5s
+}
+.listInner .copy {
+    position: absolute;
+    top:50%; left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+}
+.listInner .copy h3 {
+    font-size:20px;
+}
+.listInner .copy p {
+    font-size:16px;
+    text-align:center;
+}
+.listInner > div:hover .overlay { opacity:1; }
+.article2 button {
+    width:116px; height:54px;
+    border-radius:30px;
+    background:#fff;
+    border:2px solid #999;
+    font-size:14px;
+    color:#222;
+    padding:18px 38px;
+    margin-top:80px;
+    position:absolute;
+    left:50%;
+}
+
+.article3 .nameOuter {
+    background:#0d50aa;
+    position: relative;
+}
+.article3 .namebg { padding:200px 0;
+    background: url(../images/main_img_7.jpg) no-repeat;
+    background-position:right 0;
+    background-size:500px 544px;
+}
+.article3 .nameTit { color:#fff;
+    letter-spacing:1px;
+ }
+.article3 .nameTit h4 {
+    font-size:20px;
+    font-weight:bold;
+}
+.article3 .nameTit h5 {
+    font-size:16px;
+    opacity:0.6;
+    margin-bottom:32px
+}
+.article3 .nameTit p {
+    font-size:24px;
+}
+
+.article4 .contbg {
+    background-image:url(../images/main_img_10.jpg);
+    width:100%; 
+    background-size:cover;
+    color:#fff;
+}
+.cont h3 { 
+    font-size:36px;
+    padding:180px 0 60px;
+}
+.cont .address { float:left;}
+.cont .address h4 {
+    font-size:18px;
+    padding-bottom:35px;
+}
+.cont .address h6 {
+    font-size:26px;
+    padding-bottom:35px;
+}
+.cont .address button {
+    width:110px; height:52px;
+    padding:18px 38px;
+    background:#0d50aa;
+    color:#fff;
+    border-radius:30px;
+    margin-bottom:150px;
+    transition:all 0.5s;
+}
+.cont .address button:hover { 
+    background: #333;
+}
+.cont .email { float:right; }
+.cont .email h4 {
+    font-size:18px;
+    padding-bottom:35px;
+}
+.cont .email h6 {
+    font-size:26px;
+    padding-bottom:28px;
+}
+.cont .email .sns > a {
+    font-size:17px;
+    padding:0 8px;
+    transition:all 0.4s;
+}
+.cont .email .sns > a:hover {
+    opacity:0.4;
+}
+
+
+
+
+
+
